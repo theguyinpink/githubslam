@@ -1,0 +1,183 @@
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-weight: bold;
+}
+
+.banniere{
+    color:black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    background-color: beige;
+    color: beige;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px 8px 8px 8px;
+}
+
+
+nav {
+    background-color: beige;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.7s ease-in-out;
+}
+
+nav:hover {
+    background-color: #E7E1C6;
+}
+
+nav a {
+    margin: 0 10px;
+    padding: 7px;
+    transition: background-color 0.7s ease-in-out;
+    border-radius: 20px 20px 20px 20px;
+
+}
+nav a:hover {
+    background-color: #D6D0B0 ;
+}
+
+
+.container {
+    background-color: beige;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.8s ease-in-out;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.container2{
+    
+        background-color: beige;
+        border: 2px solid black;
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        font-family: 'Courier New', Courier, monospace;
+        transition: background-color 0.8s ease-in-out;
+        border-radius: 8px 8px 8px 8px;
+}
+
+.container:hover {
+    background-color: #E7E1C6;
+}
+
+.btn-primary {
+    background-color: beige;
+    border: 2px solid black;
+    color: black;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-secondary {
+    background-color: black;
+    border: 2px solid black;
+    color: beige;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: black;
+    color: beige;
+    padding: 0.5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 420px;
+}
+
+.mon-element {
+  background-color: beige;
+}
+
+.mon-element:hover {
+  background-color: blue;
+}
+
+.videos {
+    background-color: black;
+    color: beige;
+    padding: 0.5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 560px;
+}
+
+
+.articles {
+    background-color: black;
+    color: beige;
+    padding: 0.5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 560px;
+}
+
+.contact {
+    background-color: black;
+    color: beige;
+    padding: 0.5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 575px;
+}
+.haut {
+    background-color: beige;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    width: 25%;
+}
+.relative{
+    color:white;
+}
+.lien:hover{
+    background-color: #D6D0B0 ;
+    border-radius: 5px 20px 5px 20px;
+    padding: 8px;
+
+}
+.photo{
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+}
+.generique{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height: 100vh;
+    background-image: url("../fond.svg");
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+    background-color: rgba(205 92 92 /.9);
+    z-index: 3;
+    transition: all .3s ease-in;
+}
